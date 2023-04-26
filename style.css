@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main1 {
+    width: 1518px;
+    height: 740px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.6) url(https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/f1ac72e1-5adc-4caf-bceb-e8ec775414ac/IN-en-20230213-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#nav {
+    margin-top: 25px;
+    /* border: 1px solid white; */
+}
+
+.navimg {
+    height: 80px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.navbtn {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px 8px 10px;
+    font-weight: 500;
+    border-radius: 4px;
+    float: right;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+ul{
+    list-style: none;
+}
+
+#text {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 360px;
+    height: 400px;
+    width: 800px;
+
+    /* border: 1px solid white; */
+}
+
+.h1 {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text1 {
+
+    margin-top: 25px;
+}
+
+.texti1 {
+    float: left;
+    margin-left: 85px;
+    font-size: large;
+    padding-left: 15px;
+    /* margin-right: 0px; */
+    height: 70px;
+    width: 430px;
+    border: 1px solid black;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+.bbt:focus{
+outline: none;
+}
+
+.texti2 {
+    /* float: right; */
+    margin-right: 61px;
+    padding: 15px;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: wheat;
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    height: 70px;
+    width: 222px;
+}
+
+.main2 {
+    border: 10px  solid rgb(36, 36, 36);
+  border-left: none;
+  border-right: none;   
+  border-bottom:none;   
+    width: 1518px;
+    height: 500px;
+    background-color: black;
+}
+.indiv1{
+    float: left;
+    border: 1px solid  black;
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 370px;
+    width: 640px;
+}
+.indiv2{
+    margin-top: 60px;
+    margin-left: 50px;
+    display: inline-block;
+    border: 1px solid black;
+    height: 370px;
+    width: 640px;
+}
+
+.indh1{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.indh4{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.drop{
+color: white;
+font-size:x-large;
+padding-left: 20px;
+padding-top: 0px;
+/* border: 1px solid white; */
+background-color: rgb(68, 65, 65);
+margin-top: 50px;
+margin-left: 80px;
+height: 70px;
+width: 820px;
+}
+.drop2{
+color: white;
+font-size:x-large;
+padding-left: 20px;
+padding-top: 0px;
+/* border: 1px solid white; */
+background-color: rgb(68, 65, 65);
+margin-top: 5px;
+margin-left: 80px;
+height: 70px;
+width: 820px;
+}
+.optn{
+    background-color: rgb(68, 65, 65);
+    width: 820px;
+    color: white;
+    text-align:justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+    height: auto;
+
+}
+.list{
+    margin-bottom: 10px;
+}
+.list:hover,
+.number:hover{
+    text-decoration: underline;
+}   
+.english.dropdown{
+    border: 1px solid none ;width: 150px;height: 40px;border-radius: 5px;float: right;margin-right: 20px;margin-top: 20px;background-color: black;
+}
+.english.btn.btn-secondary.dropdown-toggle{
+    height: 40px; width: 150px;background-color: black;
+}
+.englishimage{
+    border: 1px solid black;height: 30px;width: 30px;
+}
+.english.dropdown-menu{
+    background-color: black;border-color: rgb(122, 120, 120);
+}
+.english.dropdown-item{
+    color: white;background-color:black;text-align: center;margin-left:-16px;
+}
+.english.dropdown-item:hover{
+    background-color: rgb(39, 39, 39);
+}
+.english.text1{
+    font-size: large;
+}
+.englishtv{
+    height: 400px;width: 550px;margin-left: 100px; border: 1px solid black;
+}
+.englishtvvideo{
+    border: 1px solid black ;float: left;margin-top: -354px;margin-left: 172px; height: 300px;width: 402px; 
+}
+.englishmobileimg{
+    height: 400px;width: 500px;margin-left: 130px;margin-top:20px; border: 1px solid black;float: left;
+}
+.englishbox{
+    border: 1px solid white;float: left;margin-left: -410px;margin-top: 295px;height: 100px;width: 355px;border-radius: 10px; background-color: black;
+}
+.englishboxshot{
+    border: 1px solid black;height: 85px;width: 60px;float: left;margin-left: 10px;margin-top: 5px;margin-right: 55px;
+}
+.englishstranger{
+    color: white;margin-top: 20px;
+}
+.englishdownloading{
+    color: blue;margin-top: -18px;
+}
+.englishdownload{
+    border: 1px solid black; height: 70px;width: 65px;margin-right: 5px;margin-top: -70px; background-color:black;float: right;
+}
+.englishnflxet{
+    float: right;margin-top: 100px;margin-right: 210px;height:200px ;width: 360px;
+}
+.englishdevice{
+    height: 400px;width: 580px;margin-left: 100px;margin-top: -240px; border: 1px solid black;
+}
+.englishaaaaby{
+    float: left;height: 380px;width: 450px;margin-top: 50px;margin-left: 250px; border:1px solid black;
+}
+.english.indiv1{
+    margin-left: 50px;
+}
+.english.main2{
+    height:750px;
+}
+.english.indiv1{
+    height: 600px; width: 1000px;margin-left: 270px;
+}
+.english.main2{
+    height: 750px;
+}
+.english.indiv1{
+    height: 600px; width: 1000px;margin-left: 270px;
+}
+.Questionstitle{
+    color: white;font-size: 50px;font-weight: 600;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-left: 160px;
+}
+.englishQ.dropdown-menu{
+    background-color: rgb(68, 65, 65);border-radius: 0%;
+}
+.whatis{
+    margin-left: 570px;font-size: 40px;
+}
+.hindiwhatis{
+    margin-left: 575px;font-size: 40px;
+}
+.Howmuch{
+    margin-left: 430px;font-size: 40px;
+}
+.hindiHowmuch{
+    margin-left: 450px;font-size: 40px;
+}
+.Wherecan{
+    margin-left: 532px;font-size: 40px;
+}
+.hindiWherecan{
+    margin-left: 515px;font-size: 40px;
+}
+.Howdo{
+    margin-left: 560px;font-size: 40px;
+}
+.hindiHowdo{
+    margin-left: 535px;font-size: 40px;
+}
+.Whatcan{
+    margin-left: 438px;font-size: 40px;
+}
+.hindiWhatcan{
+    margin-left: 345px;font-size: 40px;
+}
+.isnetflix{
+    margin-left: 490px;font-size: 40px;
+}
+.hindiisnetflix{
+    margin-left: 405px;font-size: 40px;
+}
+.engishl.indiv1{
+    border: 1px solid black;width: 900px;margin-left: 300px;
+}
+.english-call{
+    margin-top: 30px;margin-left: 40px;color: rgb(122, 120, 120);
+}
+.none{
+    list-style: none;
+}
+.englishdiv1{
+    float: left;margin-left: 10px;margin-right: 85px;color: rgb(122, 120, 120);
+}
+.englishdiv2{
+    float: left;margin-right: 85px;color: rgb(122, 120, 120);
+}
+.englishdiv3{
+    color: rgb(122, 120, 120);
+}
+.englishlast.dropdown{
+    border: 1px solid none ;width: 160px;height: 50px;border-radius: 5px;margin-left: 40px;margin-top: 80px;background-color: black;
+}
+.englishlast.btn.btn-secondary.dropdown-toggle{
+    height: 50px; width: 160px;background-color:black;
+}
+.englishlastimg{
+    border: 1px solid black;height: 30px;width: 30px;margin-left: -25px;margin-right: 10px;
+}
+.englishlast.dropdown-menu{
+    background-color:black;border-color: rgb(122, 120, 120);color: white;
+}
+.englishlast.dropdown-item{
+    color: white;background-color:black;text-align: center;margin-left: -16px;
+}
+.englishlast.dropdown-item:hover{
+    background-color: rgb(39, 39, 39);
+}
+.englishlastindia{
+    color: rgb(122, 120, 120);margin-top: 30px;margin-left: 50px;font-size: 15px;
+}
+
+
+
+
+
+/* login Page */
+
+#login-main{
+    margin-top:-9px;
+    height: 1000px;
+    width: 1519px;
+    background: rgba(0, 0, 0, 0.4) url(https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/f1ac72e1-5adc-4caf-bceb-e8ec775414ac/IN-en-20230213-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+background-blend-mode: darken;
+}
+.form{
+    margin: auto;
+    /* border: 5px solid white; */
+    height: 620px;
+    width: 450px;
+    background-color:rgba(0, 0, 0, 0.9);
+    background-blend-mode: darken;
+    border-radius: 5px;
+padding-top: 60px;
+}
+.navimglogo{
+    margin-left: 20px;
+    height: 110px;
+}
+.signin{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.input{
+    padding: 13px;
+    width: 278px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: larger;
+    background-color: rgb(49, 49, 49);
+    color:rgb(183, 183, 183);
+}
+.signinbtn{
+    height: 50px;
+    width: 305px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: 700;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.checkbox{
+    height: 18px;
+    width: 18px;
+    margin-left: 70px;
+    margin-top: 15px;
+    
+}
+.checkbox-lable{
+    color:white;
+    margin-left: 5px;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:rgb(183, 183, 183);
+}
+.help{
+    text-decoration: none;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:rgb(183, 183, 183);
+    margin-left: 125px;
+    
+}
+.help:hover{
+    text-decoration: underline;
+}
+.new1{
+    display: inline-flex;
+    margin-top: 80px;
+    margin-left: 70px;
+    color:rgb(183, 183, 183);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.signupnow{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight:500;
+    text-decoration: none;
+}
+.signend{
+    color:rgb(90, 90, 90);
+}
+.para{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: small;
+    color:rgb(183, 183, 183);
+}
+.learnmore{
+    text-decoration: none;
+    color: #0071eb;
+}
